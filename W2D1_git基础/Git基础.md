@@ -124,7 +124,7 @@ git merge feature-mark   # 把 feature-mark 合并进来
 1. 在 `main` 上改 `main.py` 第 1 行，提交。
 2. `git switch -c conflict-test`，改同一行，提交。
 3. `git switch main`，`git merge conflict-test`。
-
+##测试
 会看到：
 
 ```text
