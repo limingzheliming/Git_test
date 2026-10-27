@@ -183,7 +183,7 @@ conflict-test 分支的内容
 ```powershell
 git remote add origin https://github.com/你的用户名/仓库名.git
 git remote add origin https://github.com/limingzheliming/Git_test.git
-```
+git remote set-url origin https://github.com/limingzheliming/Git_test.git   
 要先新建远程仓库，在github上操作。
 - `origin` 是远程仓库的默认别名，可以改成别的，但习惯用 `origin`。
 - 查看已关联的远程：
