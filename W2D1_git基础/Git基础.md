@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+这是用来测试Branch的实验
+=======
 # 第 2 周 Day 1 教材：Git 基础（分支与远程仓库）
 
 > 你已经会 `git init`、`git add`、`git commit`、`git status`、`git log`、`.gitignore`。今天不重复这些，只补两块：**分支**和**远程仓库**。这是从“本地存档”走向“多人协作”的关键一步。
@@ -124,7 +127,11 @@ git merge feature-mark   # 把 feature-mark 合并进来
 1. 在 `main` 上改 `main.py` 第 1 行，提交。
 2. `git switch -c conflict-test`，改同一行，提交。
 3. `git switch main`，`git merge conflict-test`。
+<<<<<<< HEAD
 ##测试
+=======
+##这里测试冲突
+>>>>>>> feature-1
 会看到：
 
 ```text
@@ -373,3 +380,4 @@ git push
 ## 九、一句话
 
 今天只学两件事：**分支**（创建、切换、合并、解决冲突）和**远程仓库**（`remote`、`push`、`pull`、`clone`）。其中**解决冲突**是必练项，其他知道流程即可。删除分支、`fetch`、`rebase` 等，用到再查或交给 AI。
+>>>>>>> master
